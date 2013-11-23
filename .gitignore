@@ -1,0 +1,39 @@
+1) int abs_val(double x) {
+                if (x > 0)
+                   return x;
+                else
+                   return -x;
+             }
+
+
+2) The following C function takes in three int arguments then tests if a is equal to either b or c and
+if it is then the compuetr has encountered an error as it returns 1 but if a is not 
+equal to either b or c then the program stops and was completed successfully. 
+
+3) Prints 9 and 11
+
+4)#include<stdio.h>
+
+int main()
+{
+int div;
+int num;
+
+printf("Enter a number: ");
+scanf("%d", &num);
+
+if(num>=2)
+for(div=2; div <= num/2; div++)
+if((num%div)==0)
+break;
+
+if(num>1 && (!(div<=num/2)))
+printf("\nThe number %d is a prime.", num);
+
+return 1;
+
+else	
+printf("\nThe number %d is not a prime", num);
+
+return 0;	
+}
