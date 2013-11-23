@@ -6,9 +6,10 @@
              }
 
 
-2) The following C function takes in three int arguments then tests if a is equal to either b or c and
-if it is then the compuetr has encountered an error as it returns 1 but if a is not 
-equal to either b or c then the program stops and was completed successfully. 
+2) The following C function takes in three int arguments then tests if a is equal to 
+either b or c and if it is then the compuetr has encountered an error as it returns 1 but if a is not 
+equal to either b or c then the program stops and was completed successfully.
+
 
 3) Prints 9 and 11
 
